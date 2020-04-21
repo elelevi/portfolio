@@ -3,10 +3,9 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #64ABD1;
-		font-family: 'Questrial', sans-serif;
-		font-size: 12pt;
-		color: rgba(0,0,0,.6);
+    font-family: Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		color: black;
 	}
 	
 	
@@ -14,7 +13,7 @@
 	{
 		margin: 10px;
 		padding: 10px;
-		color: #404040;
+		color: black;
 	}
 
 	p, ol, ul
@@ -35,7 +34,7 @@
 	
 	a
 	{
-		color: #CC3399;
+		color: #00BCD4;
 	}
 	
 	a:hover
@@ -209,7 +208,17 @@ li {
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
-		background: #FFF;
-		color: #CC3399;
+		color: #FB3584;
 	}
-	
+  #header-wrapper
+	{
+		overflow: hidden;
+		background: url("images/Banner.png");
+		 background-repeat: no-repeat;
+  background-size: auto;
+	}
+
+	#header
+	{
+		text-align: center;
+	}
