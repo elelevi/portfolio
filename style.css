@@ -1,0 +1,297 @@
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		color: black;
+	}
+  
+	h1, h2, h3
+	{
+		margin: 15px 20px 10px 20px;
+		padding: 15px 20px 10px 20px;
+		color: black;
+	}
+
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+    line-height: 180%;
+	}
+	
+	a
+	{
+		color: #00BCD4;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px
+}
+
+.current {
+	color: #252525;
+}
+
+ .menu {
+     text-align: right;
+ }
+  body {
+    color: #252525;
+    margin: 0;
+    font: 16px/1.5 Roboto, sans-serif;
+  }
+
+  h1 {  
+    font-size: 40px;
+    color: black; 
+    line-height: 1.3;
+  }
+  h2 {
+    font-size: 30px;
+    color: black; 
+    line-height: 1.3;
+  }
+  h3 {
+        font-size: 20px;
+        color: black;
+        line-height: 1.2;
+      }
+    
+      
+  
+      
+      #header-wrapper
+      {
+        overflow: hidden;
+        background: url("images/Banner.png");
+         background-repeat: no-repeat;
+      background-size: auto;
+      }
+    
+      #header
+      {
+        text-align: center;
+      }
+
+  #logo
+	{
+		padding: 8em 0em 4em 0em;
+	}
+	
+	#logo h1
+	{
+		text-align: left;
+		margin-bottom: 0.20em;
+		padding: 0.20em 0.9em;
+		font-size: 3.5em;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: black;
+	}
+	
+	#logo span
+	{
+		padding-right: 0.5em;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color: rgba(255,255,255,1);
+	}
+
+	#logo span a
+	{
+		color: rgba(255,255,255,0.8);
+  }
+  
+  #menu
+	{
+		height: 60px;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+		padding: 0em 2em;
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		padding: 0em 1.5em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		line-height: 60px;
+		outline: 0;
+		color: black;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: #FB3584;
+	}
+  #header-wrapper
+	{
+		overflow: hidden;
+		background: url("images/Banner.png");
+		 background-repeat: no-repeat;
+  background-size: auto;
+	}
+
+	#header
+	{
+		text-align: center;
+  }
+  
+
+  .main-footer {
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 40px;
+    background: #d9e4ea;
+  }
+  
+.bio {
+  display: inline-block;
+  width: 1000px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+	
+  .column {
+    float: left;
+    display: flex;
+  flex-direction: column;
+  column-count: 3;
+  flex-basis: 100%;
+    width: 30%;
+    column-gap: 20px;
+    margin-left: 20px;
+  }
+
+  .left, .right {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .middle {
+    position: relative;
+    display: inline-block;
+  }
+ 
+
+	#extra
+	{
+    overflow: hidden;
+    width: 1000px;
+	}
+	
+	#extra .title
+	{
+		text-align: center;
+	}
+
+  .container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+    width: 1000px;
+  }
+  
+  .boxA,
+	.boxB,
+	.boxC
+	{
+		width: 300px;
+	}
+
+  .boxA {
+    margin-left: 40px;
+  }
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.boxC
+	{
+		float: right;
+  }
+  
+  .feat-img {
+    width: 300px;
+    padding: 20px 0 20px 0;
+
+  }
+  @media (min-width: 789px) {
+
+    .height {
+      min-height: calc(100vh - 128px);
+    }
+  }
+
+  .button a:hover, a:active {
+    background-color: #FB3584;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .button a:link, a:visited {
+    background-color: #fc67a2;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .my-img {
+    width: 500px;
+    padding: 20px 50px 20px 0;
+    margin-left: 40px;
+  }
