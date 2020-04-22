@@ -3,6 +3,8 @@ let correct = 0;
 let rank;
 const main = document.querySelector("main");
 
+alert("How well do you know me? Let's play a game!");
+
 const answer1 = prompt("How old am I?");
 if (answer1.toUpperCase() === "35" ) {
   correct += 1;

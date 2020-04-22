@@ -260,4 +260,38 @@ li {
     padding: 20px 0 20px 0;
 
   }
+  @media (min-width: 789px) {
+
+    .height {
+      min-height: calc(100vh - 128px);
+    }
+  }
+
+  .button a:hover, a:active {
+    background-color: #FB3584;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
   
+  .button a:link, a:visited {
+    background-color: #fc67a2;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .my-img {
+    width: 500px;
+    padding: 20px 50px 20px 0;
+    margin-left: 40px;
+  }
